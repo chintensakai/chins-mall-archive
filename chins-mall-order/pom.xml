@@ -10,7 +10,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.chins</groupId>
     <artifactId>chins-mall-order</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -18,7 +20,7 @@
             <groupId>org.springframework.boot</groupId>
         </dependency>
         <dependency>
-            <groupId>org.chins</groupId>
+            <groupId>com.chins</groupId>
             <artifactId>chins-mall-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
