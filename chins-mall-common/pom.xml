@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chins-mall-generator</artifactId>
+    <artifactId>chins-mall-common</artifactId>
 
     <dependencies>
         <dependency>
@@ -31,11 +31,6 @@
             <artifactId>lombok</artifactId>
             <groupId>org.projectlombok</groupId>
             <version>1.18.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.freemarker</groupId>
-            <artifactId>freemarker</artifactId>
-            <version>2.3.30</version>
         </dependency>
     </dependencies>
 

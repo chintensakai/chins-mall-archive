@@ -1,0 +1,16 @@
+package com.chins.mall.order.mapper;
+
+import com.chins.mall.order.entity.OmsPaymentInfo;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+ * <p>
+ * 支付信息表 Mapper 接口
+ * </p>
+ *
+ * @author chins
+ * @since 2020-08-02
+ */
+public interface OmsPaymentInfoMapper extends BaseMapper<OmsPaymentInfo> {
+
+}

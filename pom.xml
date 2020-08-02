@@ -9,6 +9,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>chins-mall-generator</module>
+        <module>chins-mall-product</module>
+        <module>chins-mall-common</module>
+        <module>chins-mall-order</module>
+        <module>chins-mall-coupon</module>
+        <module>chins-mall-member</module>
+        <module>chins-mall-ware</module>
     </modules>
     <packaging>pom</packaging>
 
