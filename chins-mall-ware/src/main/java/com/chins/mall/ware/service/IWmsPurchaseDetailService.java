@@ -1,11 +1,11 @@
 package com.chins.mall.ware.service;
 
-import com.chins.mall.ware.entity.WmsPurchaseDetail;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.chins.mall.ware.entity.WmsPurchaseDetail;
 
 /**
  * <p>
- *  服务类
+ * 服务类
  * </p>
  *
  * @author chins

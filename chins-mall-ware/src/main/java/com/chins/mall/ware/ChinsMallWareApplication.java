@@ -9,7 +9,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @MapperScan("com.chins.mall.ware.mapper")
 public class ChinsMallWareApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(ChinsMallWareApplication.class, args);
-    }
+
+  public static void main(String[] args) {
+    SpringApplication.run(ChinsMallWareApplication.class, args);
+  }
 }

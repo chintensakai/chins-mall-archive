@@ -1,7 +1,7 @@
 package com.chins.mall.coupon.mapper;
 
-import com.chins.mall.coupon.entity.SmsCouponHistory;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.chins.mall.coupon.entity.SmsCouponHistory;
 
 /**
  * <p>

@@ -1,9 +1,9 @@
 package com.chins.mall.ware.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.ware.entity.WmsWareSku;
 import com.chins.mall.ware.mapper.WmsWareSkuMapper;
 import com.chins.mall.ware.service.IWmsWareSkuService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class WmsWareSkuServiceImpl extends ServiceImpl<WmsWareSkuMapper, WmsWareSku> implements IWmsWareSkuService {
+public class WmsWareSkuServiceImpl extends ServiceImpl<WmsWareSkuMapper, WmsWareSku> implements
+    IWmsWareSkuService {
 
 }

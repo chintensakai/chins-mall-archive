@@ -1,10 +1,10 @@
 package com.chins.mall.product.entity;
 
-import java.math.BigDecimal;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -20,44 +20,44 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class PmsSpuInfo implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * 商品id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * 商品id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * 商品名称
-     */
-    private String spuName;
+  /**
+   * 商品名称
+   */
+  private String spuName;
 
-    /**
-     * 商品描述
-     */
-    private String spuDescription;
+  /**
+   * 商品描述
+   */
+  private String spuDescription;
 
-    /**
-     * 所属分类id
-     */
-    private Long catalogId;
+  /**
+   * 所属分类id
+   */
+  private Long catalogId;
 
-    /**
-     * 品牌id
-     */
-    private Long brandId;
+  /**
+   * 品牌id
+   */
+  private Long brandId;
 
-    private BigDecimal weight;
+  private BigDecimal weight;
 
-    /**
-     * 上架状态[0 - 下架，1 - 上架]
-     */
-    private Integer publishStatus;
+  /**
+   * 上架状态[0 - 下架，1 - 上架]
+   */
+  private Integer publishStatus;
 
-    private LocalDateTime createTime;
+  private LocalDateTime createTime;
 
-    private LocalDateTime updateTime;
+  private LocalDateTime updateTime;
 
 
 }

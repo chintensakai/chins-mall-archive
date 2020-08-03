@@ -18,33 +18,33 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class WmsWareOrderTaskDetail implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * sku_id
-     */
-    private Long skuId;
+  /**
+   * sku_id
+   */
+  private Long skuId;
 
-    /**
-     * sku_name
-     */
-    private String skuName;
+  /**
+   * sku_name
+   */
+  private String skuName;
 
-    /**
-     * 购买个数
-     */
-    private Integer skuNum;
+  /**
+   * 购买个数
+   */
+  private Integer skuNum;
 
-    /**
-     * 工作单id
-     */
-    private Long taskId;
+  /**
+   * 工作单id
+   */
+  private Long taskId;
 
 
 }

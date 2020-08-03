@@ -1,7 +1,7 @@
 package com.chins.mall.product.mapper;
 
-import com.chins.mall.product.entity.PmsSkuSaleAttrValue;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.chins.mall.product.entity.PmsSkuSaleAttrValue;
 
 /**
  * <p>

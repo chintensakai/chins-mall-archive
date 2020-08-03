@@ -1,9 +1,9 @@
 package com.chins.mall.product.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.product.entity.PmsSpuImages;
 import com.chins.mall.product.mapper.PmsSpuImagesMapper;
 import com.chins.mall.product.service.IPmsSpuImagesService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class PmsSpuImagesServiceImpl extends ServiceImpl<PmsSpuImagesMapper, PmsSpuImages> implements IPmsSpuImagesService {
+public class PmsSpuImagesServiceImpl extends
+    ServiceImpl<PmsSpuImagesMapper, PmsSpuImages> implements IPmsSpuImagesService {
 
 }

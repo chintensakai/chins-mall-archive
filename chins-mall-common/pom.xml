@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>chins-mall</artifactId>
-        <groupId>com.chins</groupId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>chins-mall-common</artifactId>
+  <dependencies>
+    <dependency>
+      <artifactId>mybatis-plus-boot-starter</artifactId>
+      <groupId>com.baomidou</groupId>
+      <version>3.3.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>mybatis-plus-generator</artifactId>
+      <groupId>com.baomidou</groupId>
+      <version>3.3.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId>
+      <version>8.0.17</version>
+    </dependency>
+    <dependency>
+      <artifactId>lombok</artifactId>
+      <groupId>org.projectlombok</groupId>
+      <version>1.18.4</version>
+    </dependency>
 
-    <artifactId>chins-mall-common</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <dependency>
+      <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+      <groupId>com.alibaba.cloud</groupId>
+    </dependency>
+  </dependencies>
 
-    <properties>
-        <java.version>1.8</java.version>
-        <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
-    </properties>
-
+  <dependencyManagement>
     <dependencies>
-        <dependency>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <groupId>com.baomidou</groupId>
-            <version>3.3.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-generator</artifactId>
-            <version>3.3.2</version>
-        </dependency>
-        <dependency>
-            <artifactId>mysql-connector-java</artifactId>
-            <groupId>mysql</groupId>
-            <version>8.0.17</version>
-        </dependency>
-        <dependency>
-            <artifactId>lombok</artifactId>
-            <groupId>org.projectlombok</groupId>
-            <version>1.18.4</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
+      <dependency>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <groupId>org.springframework.cloud</groupId>
+        <scope>import</scope>
+        <type>pom</type>
+        <version>${spring-cloud.version}</version>
+      </dependency>
+      <dependency>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <groupId>com.alibaba.cloud</groupId>
+        <scope>import</scope>
+        <type>pom</type>
+        <version>2.2.0.RELEASE</version>
+      </dependency>
     </dependencies>
+  </dependencyManagement>
+  <modelVersion>4.0.0</modelVersion>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <groupId>org.springframework.cloud</groupId>
-                <scope>import</scope>
-                <type>pom</type>
-                <version>${spring-cloud.version}</version>
-            </dependency>
-            <dependency>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <groupId>com.alibaba.cloud</groupId>
-                <scope>import</scope>
-                <type>pom</type>
-                <version>2.2.0.RELEASE</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+  <parent>
+    <artifactId>chins-mall</artifactId>
+    <groupId>com.chins</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
+  </properties>
+
+  <version>0.0.1-SNAPSHOT</version>
 
 </project>

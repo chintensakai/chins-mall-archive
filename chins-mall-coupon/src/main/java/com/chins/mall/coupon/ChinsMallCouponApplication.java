@@ -9,7 +9,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @MapperScan("com.chins.mall.coupon.mapper")
 public class ChinsMallCouponApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(ChinsMallCouponApplication.class, args);
-    }
+
+  public static void main(String[] args) {
+    SpringApplication.run(ChinsMallCouponApplication.class, args);
+  }
 }

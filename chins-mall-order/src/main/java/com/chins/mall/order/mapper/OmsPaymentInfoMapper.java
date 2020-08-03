@@ -1,7 +1,7 @@
 package com.chins.mall.order.mapper;
 
-import com.chins.mall.order.entity.OmsPaymentInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.chins.mall.order.entity.OmsPaymentInfo;
 
 /**
  * <p>

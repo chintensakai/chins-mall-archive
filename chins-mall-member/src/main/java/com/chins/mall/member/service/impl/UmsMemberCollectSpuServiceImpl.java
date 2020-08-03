@@ -1,9 +1,9 @@
 package com.chins.mall.member.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.member.entity.UmsMemberCollectSpu;
 import com.chins.mall.member.mapper.UmsMemberCollectSpuMapper;
 import com.chins.mall.member.service.IUmsMemberCollectSpuService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,8 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class UmsMemberCollectSpuServiceImpl extends ServiceImpl<UmsMemberCollectSpuMapper, UmsMemberCollectSpu> implements IUmsMemberCollectSpuService {
+public class UmsMemberCollectSpuServiceImpl extends
+    ServiceImpl<UmsMemberCollectSpuMapper, UmsMemberCollectSpu> implements
+    IUmsMemberCollectSpuService {
 
 }

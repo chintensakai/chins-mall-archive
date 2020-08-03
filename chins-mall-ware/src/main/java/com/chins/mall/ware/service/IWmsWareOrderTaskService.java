@@ -1,7 +1,7 @@
 package com.chins.mall.ware.service;
 
-import com.chins.mall.ware.entity.WmsWareOrderTask;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.chins.mall.ware.entity.WmsWareOrderTask;
 
 /**
  * <p>

@@ -16,17 +16,17 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class PmsSpuInfoDesc implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * 商品id
-     */
-    private Long spuId;
+  /**
+   * 商品id
+   */
+  private Long spuId;
 
-    /**
-     * 商品介绍
-     */
-    private String decript;
+  /**
+   * 商品介绍
+   */
+  private String decript;
 
 
 }

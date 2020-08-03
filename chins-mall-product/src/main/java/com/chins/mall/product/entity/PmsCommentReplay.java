@@ -18,23 +18,23 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class PmsCommentReplay implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * 评论id
-     */
-    private Long commentId;
+  /**
+   * 评论id
+   */
+  private Long commentId;
 
-    /**
-     * 回复id
-     */
-    private Long replyId;
+  /**
+   * 回复id
+   */
+  private Long replyId;
 
 
 }

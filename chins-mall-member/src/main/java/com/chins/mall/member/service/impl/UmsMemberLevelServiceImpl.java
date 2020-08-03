@@ -1,9 +1,9 @@
 package com.chins.mall.member.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.member.entity.UmsMemberLevel;
 import com.chins.mall.member.mapper.UmsMemberLevelMapper;
 import com.chins.mall.member.service.IUmsMemberLevelService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class UmsMemberLevelServiceImpl extends ServiceImpl<UmsMemberLevelMapper, UmsMemberLevel> implements IUmsMemberLevelService {
+public class UmsMemberLevelServiceImpl extends
+    ServiceImpl<UmsMemberLevelMapper, UmsMemberLevel> implements IUmsMemberLevelService {
 
 }

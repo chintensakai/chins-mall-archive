@@ -2,8 +2,8 @@ package com.chins.mall.coupon.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -19,43 +19,43 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class SmsSeckillSkuNotice implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * member_id
-     */
-    private Long memberId;
+  /**
+   * member_id
+   */
+  private Long memberId;
 
-    /**
-     * sku_id
-     */
-    private Long skuId;
+  /**
+   * sku_id
+   */
+  private Long skuId;
 
-    /**
-     * 活动场次id
-     */
-    private Long sessionId;
+  /**
+   * 活动场次id
+   */
+  private Long sessionId;
 
-    /**
-     * 订阅时间
-     */
-    private LocalDateTime subcribeTime;
+  /**
+   * 订阅时间
+   */
+  private LocalDateTime subcribeTime;
 
-    /**
-     * 发送时间
-     */
-    private LocalDateTime sendTime;
+  /**
+   * 发送时间
+   */
+  private LocalDateTime sendTime;
 
-    /**
-     * 通知方式[0-短信，1-邮件]
-     */
-    private Boolean noticeType;
+  /**
+   * 通知方式[0-短信，1-邮件]
+   */
+  private Boolean noticeType;
 
 
 }

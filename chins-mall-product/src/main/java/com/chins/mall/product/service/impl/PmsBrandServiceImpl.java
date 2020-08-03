@@ -1,9 +1,9 @@
 package com.chins.mall.product.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.product.entity.PmsBrand;
 import com.chins.mall.product.mapper.PmsBrandMapper;
 import com.chins.mall.product.service.IPmsBrandService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class PmsBrandServiceImpl extends ServiceImpl<PmsBrandMapper, PmsBrand> implements IPmsBrandService {
+public class PmsBrandServiceImpl extends ServiceImpl<PmsBrandMapper, PmsBrand> implements
+    IPmsBrandService {
 
 }

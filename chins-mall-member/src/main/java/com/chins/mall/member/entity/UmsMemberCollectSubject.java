@@ -18,33 +18,33 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class UmsMemberCollectSubject implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * subject_id
-     */
-    private Long subjectId;
+  /**
+   * subject_id
+   */
+  private Long subjectId;
 
-    /**
-     * subject_name
-     */
-    private String subjectName;
+  /**
+   * subject_name
+   */
+  private String subjectName;
 
-    /**
-     * subject_img
-     */
-    private String subjectImg;
+  /**
+   * subject_img
+   */
+  private String subjectImg;
 
-    /**
-     * 活动url
-     */
-    private String subjectUrll;
+  /**
+   * 活动url
+   */
+  private String subjectUrll;
 
 
 }

@@ -1,7 +1,7 @@
 package com.chins.mall.member.service;
 
-import com.chins.mall.member.entity.UmsMember;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.chins.mall.member.entity.UmsMember;
 
 /**
  * <p>

@@ -1,7 +1,7 @@
 package com.chins.mall.member.entity;
 
-import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -17,37 +17,37 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class UmsMemberCollectSpu implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    private Long id;
+  /**
+   * id
+   */
+  private Long id;
 
-    /**
-     * 会员id
-     */
-    private Long memberId;
+  /**
+   * 会员id
+   */
+  private Long memberId;
 
-    /**
-     * spu_id
-     */
-    private Long spuId;
+  /**
+   * spu_id
+   */
+  private Long spuId;
 
-    /**
-     * spu_name
-     */
-    private String spuName;
+  /**
+   * spu_name
+   */
+  private String spuName;
 
-    /**
-     * spu_img
-     */
-    private String spuImg;
+  /**
+   * spu_img
+   */
+  private String spuImg;
 
-    /**
-     * create_time
-     */
-    private LocalDateTime createTime;
+  /**
+   * create_time
+   */
+  private LocalDateTime createTime;
 
 
 }

@@ -18,33 +18,33 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class SmsHomeSubjectSpu implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * 专题名字
-     */
-    private String name;
+  /**
+   * 专题名字
+   */
+  private String name;
 
-    /**
-     * 专题id
-     */
-    private Long subjectId;
+  /**
+   * 专题id
+   */
+  private Long subjectId;
 
-    /**
-     * spu_id
-     */
-    private Long spuId;
+  /**
+   * spu_id
+   */
+  private Long spuId;
 
-    /**
-     * 排序
-     */
-    private Integer sort;
+  /**
+   * 排序
+   */
+  private Integer sort;
 
 
 }

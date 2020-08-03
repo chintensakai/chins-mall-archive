@@ -1,7 +1,7 @@
 package com.chins.mall.product.service;
 
-import com.chins.mall.product.entity.PmsAttrGroup;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.chins.mall.product.entity.PmsAttrGroup;
 
 /**
  * <p>

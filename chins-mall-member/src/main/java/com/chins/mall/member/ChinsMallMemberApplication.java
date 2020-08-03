@@ -11,7 +11,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients(basePackages = "com.chins.mall.member.feign")
 @MapperScan("com.chins.mall.member.mapper")
 public class ChinsMallMemberApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(ChinsMallMemberApplication.class, args);
-    }
+
+  public static void main(String[] args) {
+    SpringApplication.run(ChinsMallMemberApplication.class, args);
+  }
 }

@@ -1,7 +1,7 @@
 package com.chins.mall.member.mapper;
 
-import com.chins.mall.member.entity.UmsMemberLoginLog;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.chins.mall.member.entity.UmsMemberLoginLog;
 
 /**
  * <p>

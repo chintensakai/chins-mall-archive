@@ -1,9 +1,9 @@
 package com.chins.mall.coupon.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.coupon.entity.SmsMemberPrice;
 import com.chins.mall.coupon.mapper.SmsMemberPriceMapper;
 import com.chins.mall.coupon.service.ISmsMemberPriceService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class SmsMemberPriceServiceImpl extends ServiceImpl<SmsMemberPriceMapper, SmsMemberPrice> implements ISmsMemberPriceService {
+public class SmsMemberPriceServiceImpl extends
+    ServiceImpl<SmsMemberPriceMapper, SmsMemberPrice> implements ISmsMemberPriceService {
 
 }

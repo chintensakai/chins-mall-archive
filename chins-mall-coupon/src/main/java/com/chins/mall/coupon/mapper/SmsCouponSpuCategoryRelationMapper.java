@@ -1,7 +1,7 @@
 package com.chins.mall.coupon.mapper;
 
-import com.chins.mall.coupon.entity.SmsCouponSpuCategoryRelation;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.chins.mall.coupon.entity.SmsCouponSpuCategoryRelation;
 
 /**
  * <p>
@@ -11,6 +11,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author chins
  * @since 2020-08-02
  */
-public interface SmsCouponSpuCategoryRelationMapper extends BaseMapper<SmsCouponSpuCategoryRelation> {
+public interface SmsCouponSpuCategoryRelationMapper extends
+    BaseMapper<SmsCouponSpuCategoryRelation> {
 
 }

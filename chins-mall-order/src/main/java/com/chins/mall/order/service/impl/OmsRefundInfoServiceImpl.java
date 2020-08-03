@@ -1,9 +1,9 @@
 package com.chins.mall.order.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.order.entity.OmsRefundInfo;
 import com.chins.mall.order.mapper.OmsRefundInfoMapper;
 import com.chins.mall.order.service.IOmsRefundInfoService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class OmsRefundInfoServiceImpl extends ServiceImpl<OmsRefundInfoMapper, OmsRefundInfo> implements IOmsRefundInfoService {
+public class OmsRefundInfoServiceImpl extends
+    ServiceImpl<OmsRefundInfoMapper, OmsRefundInfo> implements IOmsRefundInfoService {
 
 }

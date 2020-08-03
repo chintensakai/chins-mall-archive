@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>chins-mall</artifactId>
-        <groupId>com.chins</groupId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>chins-mall-generator</artifactId>
+  <dependencies>
+    <dependency>
+      <artifactId>mybatis-plus-boot-starter</artifactId>
+      <groupId>com.baomidou</groupId>
+      <version>3.3.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>mybatis-plus-generator</artifactId>
+      <groupId>com.baomidou</groupId>
+      <version>3.3.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId>
+      <version>8.0.17</version>
+    </dependency>
+    <dependency>
+      <artifactId>lombok</artifactId>
+      <groupId>org.projectlombok</groupId>
+      <version>1.18.4</version>
+    </dependency>
+    <dependency>
+      <artifactId>freemarker</artifactId>
+      <groupId>org.freemarker</groupId>
+      <version>2.3.30</version>
+    </dependency>
+  </dependencies>
 
-    <artifactId>chins-mall-generator</artifactId>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>chins-mall</artifactId>
+    <groupId>com.chins</groupId>
     <version>0.0.1-SNAPSHOT</version>
+  </parent>
 
-    <dependencies>
-        <dependency>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <groupId>com.baomidou</groupId>
-            <version>3.3.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-generator</artifactId>
-            <version>3.3.2</version>
-        </dependency>
-        <dependency>
-            <artifactId>mysql-connector-java</artifactId>
-            <groupId>mysql</groupId>
-            <version>8.0.17</version>
-        </dependency>
-        <dependency>
-            <artifactId>lombok</artifactId>
-            <groupId>org.projectlombok</groupId>
-            <version>1.18.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.freemarker</groupId>
-            <artifactId>freemarker</artifactId>
-            <version>2.3.30</version>
-        </dependency>
-    </dependencies>
+  <version>0.0.1-SNAPSHOT</version>
 
 </project>

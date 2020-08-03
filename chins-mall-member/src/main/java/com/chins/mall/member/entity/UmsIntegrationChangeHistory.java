@@ -2,8 +2,8 @@ package com.chins.mall.member.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -19,38 +19,38 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class UmsIntegrationChangeHistory implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * member_id
-     */
-    private Long memberId;
+  /**
+   * member_id
+   */
+  private Long memberId;
 
-    /**
-     * create_time
-     */
-    private LocalDateTime createTime;
+  /**
+   * create_time
+   */
+  private LocalDateTime createTime;
 
-    /**
-     * 变化的值
-     */
-    private Integer changeCount;
+  /**
+   * 变化的值
+   */
+  private Integer changeCount;
 
-    /**
-     * 备注
-     */
-    private String note;
+  /**
+   * 备注
+   */
+  private String note;
 
-    /**
-     * 来源[0->购物；1->管理员修改;2->活动]
-     */
-    private Integer sourceTyoe;
+  /**
+   * 来源[0->购物；1->管理员修改;2->活动]
+   */
+  private Integer sourceTyoe;
 
 
 }

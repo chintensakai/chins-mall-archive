@@ -18,38 +18,38 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class PmsAttrGroup implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * 分组id
-     */
-    @TableId(value = "attr_group_id", type = IdType.AUTO)
-    private Long attrGroupId;
+  /**
+   * 分组id
+   */
+  @TableId(value = "attr_group_id", type = IdType.AUTO)
+  private Long attrGroupId;
 
-    /**
-     * 组名
-     */
-    private String attrGroupName;
+  /**
+   * 组名
+   */
+  private String attrGroupName;
 
-    /**
-     * 排序
-     */
-    private Integer sort;
+  /**
+   * 排序
+   */
+  private Integer sort;
 
-    /**
-     * 描述
-     */
-    private String descript;
+  /**
+   * 描述
+   */
+  private String descript;
 
-    /**
-     * 组图标
-     */
-    private String icon;
+  /**
+   * 组图标
+   */
+  private String icon;
 
-    /**
-     * 所属分类id
-     */
-    private Long catelogId;
+  /**
+   * 所属分类id
+   */
+  private Long catelogId;
 
 
 }

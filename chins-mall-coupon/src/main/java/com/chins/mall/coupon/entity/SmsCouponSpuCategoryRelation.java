@@ -18,28 +18,28 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class SmsCouponSpuCategoryRelation implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * 优惠券id
-     */
-    private Long couponId;
+  /**
+   * 优惠券id
+   */
+  private Long couponId;
 
-    /**
-     * 产品分类id
-     */
-    private Long categoryId;
+  /**
+   * 产品分类id
+   */
+  private Long categoryId;
 
-    /**
-     * 产品分类名称
-     */
-    private String categoryName;
+  /**
+   * 产品分类名称
+   */
+  private String categoryName;
 
 
 }

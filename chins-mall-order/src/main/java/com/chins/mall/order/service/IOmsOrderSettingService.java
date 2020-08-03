@@ -1,7 +1,7 @@
 package com.chins.mall.order.service;
 
-import com.chins.mall.order.entity.OmsOrderSetting;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.chins.mall.order.entity.OmsOrderSetting;
 
 /**
  * <p>

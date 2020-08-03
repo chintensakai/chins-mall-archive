@@ -1,10 +1,10 @@
 package com.chins.mall.order.entity;
 
-import java.math.BigDecimal;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -20,148 +20,148 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class OmsOrderReturnApply implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * order_id
-     */
-    private Long orderId;
+  /**
+   * order_id
+   */
+  private Long orderId;
 
-    /**
-     * 退货商品id
-     */
-    private Long skuId;
+  /**
+   * 退货商品id
+   */
+  private Long skuId;
 
-    /**
-     * 订单编号
-     */
-    private String orderSn;
+  /**
+   * 订单编号
+   */
+  private String orderSn;
 
-    /**
-     * 申请时间
-     */
-    private LocalDateTime createTime;
+  /**
+   * 申请时间
+   */
+  private LocalDateTime createTime;
 
-    /**
-     * 会员用户名
-     */
-    private String memberUsername;
+  /**
+   * 会员用户名
+   */
+  private String memberUsername;
 
-    /**
-     * 退款金额
-     */
-    private BigDecimal returnAmount;
+  /**
+   * 退款金额
+   */
+  private BigDecimal returnAmount;
 
-    /**
-     * 退货人姓名
-     */
-    private String returnName;
+  /**
+   * 退货人姓名
+   */
+  private String returnName;
 
-    /**
-     * 退货人电话
-     */
-    private String returnPhone;
+  /**
+   * 退货人电话
+   */
+  private String returnPhone;
 
-    /**
-     * 申请状态[0->待处理；1->退货中；2->已完成；3->已拒绝]
-     */
-    private Boolean status;
+  /**
+   * 申请状态[0->待处理；1->退货中；2->已完成；3->已拒绝]
+   */
+  private Boolean status;
 
-    /**
-     * 处理时间
-     */
-    private LocalDateTime handleTime;
+  /**
+   * 处理时间
+   */
+  private LocalDateTime handleTime;
 
-    /**
-     * 商品图片
-     */
-    private String skuImg;
+  /**
+   * 商品图片
+   */
+  private String skuImg;
 
-    /**
-     * 商品名称
-     */
-    private String skuName;
+  /**
+   * 商品名称
+   */
+  private String skuName;
 
-    /**
-     * 商品品牌
-     */
-    private String skuBrand;
+  /**
+   * 商品品牌
+   */
+  private String skuBrand;
 
-    /**
-     * 商品销售属性(JSON)
-     */
-    private String skuAttrsVals;
+  /**
+   * 商品销售属性(JSON)
+   */
+  private String skuAttrsVals;
 
-    /**
-     * 退货数量
-     */
-    private Integer skuCount;
+  /**
+   * 退货数量
+   */
+  private Integer skuCount;
 
-    /**
-     * 商品单价
-     */
-    private BigDecimal skuPrice;
+  /**
+   * 商品单价
+   */
+  private BigDecimal skuPrice;
 
-    /**
-     * 商品实际支付单价
-     */
-    private BigDecimal skuRealPrice;
+  /**
+   * 商品实际支付单价
+   */
+  private BigDecimal skuRealPrice;
 
-    /**
-     * 原因
-     */
-    private String reason;
+  /**
+   * 原因
+   */
+  private String reason;
 
-    /**
-     * 描述
-     */
-    private String description述;
+  /**
+   * 描述
+   */
+  private String description述;
 
-    /**
-     * 凭证图片，以逗号隔开
-     */
-    private String descPics;
+  /**
+   * 凭证图片，以逗号隔开
+   */
+  private String descPics;
 
-    /**
-     * 处理备注
-     */
-    private String handleNote;
+  /**
+   * 处理备注
+   */
+  private String handleNote;
 
-    /**
-     * 处理人员
-     */
-    private String handleMan;
+  /**
+   * 处理人员
+   */
+  private String handleMan;
 
-    /**
-     * 收货人
-     */
-    private String receiveMan;
+  /**
+   * 收货人
+   */
+  private String receiveMan;
 
-    /**
-     * 收货时间
-     */
-    private LocalDateTime receiveTime;
+  /**
+   * 收货时间
+   */
+  private LocalDateTime receiveTime;
 
-    /**
-     * 收货备注
-     */
-    private String receiveNote;
+  /**
+   * 收货备注
+   */
+  private String receiveNote;
 
-    /**
-     * 收货电话
-     */
-    private String receivePhone;
+  /**
+   * 收货电话
+   */
+  private String receivePhone;
 
-    /**
-     * 公司收货地址
-     */
-    private String companyAddress;
+  /**
+   * 公司收货地址
+   */
+  private String companyAddress;
 
 
 }

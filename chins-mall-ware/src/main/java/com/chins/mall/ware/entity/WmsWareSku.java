@@ -18,38 +18,38 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class WmsWareSku implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * sku_id
-     */
-    private Long skuId;
+  /**
+   * sku_id
+   */
+  private Long skuId;
 
-    /**
-     * 仓库id
-     */
-    private Long wareId;
+  /**
+   * 仓库id
+   */
+  private Long wareId;
 
-    /**
-     * 库存数
-     */
-    private Integer stock;
+  /**
+   * 库存数
+   */
+  private Integer stock;
 
-    /**
-     * sku_name
-     */
-    private String skuName;
+  /**
+   * sku_name
+   */
+  private String skuName;
 
-    /**
-     * 锁定库存
-     */
-    private Integer stockLocked;
+  /**
+   * 锁定库存
+   */
+  private Integer stockLocked;
 
 
 }

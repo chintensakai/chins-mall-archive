@@ -18,28 +18,28 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class WmsWareInfo implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * 仓库名
-     */
-    private String name;
+  /**
+   * 仓库名
+   */
+  private String name;
 
-    /**
-     * 仓库地址
-     */
-    private String address;
+  /**
+   * 仓库地址
+   */
+  private String address;
 
-    /**
-     * 区域编码
-     */
-    private String areacode;
+  /**
+   * 区域编码
+   */
+  private String areacode;
 
 
 }

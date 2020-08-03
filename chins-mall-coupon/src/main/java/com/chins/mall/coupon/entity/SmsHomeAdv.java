@@ -2,8 +2,8 @@ package com.chins.mall.coupon.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -19,68 +19,68 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class SmsHomeAdv implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * 名字
-     */
-    private String name;
+  /**
+   * 名字
+   */
+  private String name;
 
-    /**
-     * 图片地址
-     */
-    private String pic;
+  /**
+   * 图片地址
+   */
+  private String pic;
 
-    /**
-     * 开始时间
-     */
-    private LocalDateTime startTime;
+  /**
+   * 开始时间
+   */
+  private LocalDateTime startTime;
 
-    /**
-     * 结束时间
-     */
-    private LocalDateTime endTime;
+  /**
+   * 结束时间
+   */
+  private LocalDateTime endTime;
 
-    /**
-     * 状态
-     */
-    private Boolean status;
+  /**
+   * 状态
+   */
+  private Boolean status;
 
-    /**
-     * 点击数
-     */
-    private Integer clickCount;
+  /**
+   * 点击数
+   */
+  private Integer clickCount;
 
-    /**
-     * 广告详情连接地址
-     */
-    private String url;
+  /**
+   * 广告详情连接地址
+   */
+  private String url;
 
-    /**
-     * 备注
-     */
-    private String note;
+  /**
+   * 备注
+   */
+  private String note;
 
-    /**
-     * 排序
-     */
-    private Integer sort;
+  /**
+   * 排序
+   */
+  private Integer sort;
 
-    /**
-     * 发布者
-     */
-    private Long publisherId;
+  /**
+   * 发布者
+   */
+  private Long publisherId;
 
-    /**
-     * 审核者
-     */
-    private Long authId;
+  /**
+   * 审核者
+   */
+  private Long authId;
 
 
 }

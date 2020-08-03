@@ -18,48 +18,48 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class SmsHomeSubject implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * 专题名字
-     */
-    private String name;
+  /**
+   * 专题名字
+   */
+  private String name;
 
-    /**
-     * 专题标题
-     */
-    private String title;
+  /**
+   * 专题标题
+   */
+  private String title;
 
-    /**
-     * 专题副标题
-     */
-    private String subTitle;
+  /**
+   * 专题副标题
+   */
+  private String subTitle;
 
-    /**
-     * 显示状态
-     */
-    private Boolean status;
+  /**
+   * 显示状态
+   */
+  private Boolean status;
 
-    /**
-     * 详情连接
-     */
-    private String url;
+  /**
+   * 详情连接
+   */
+  private String url;
 
-    /**
-     * 排序
-     */
-    private Integer sort;
+  /**
+   * 排序
+   */
+  private Integer sort;
 
-    /**
-     * 专题图片地址
-     */
-    private String img;
+  /**
+   * 专题图片地址
+   */
+  private String img;
 
 
 }

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient("chins-mall-coupon")
 public interface SmsCouponFeignService {
 
-    @GetMapping("/coupon/sms-coupon/member/list")
-    public R memberCoupons();
+  @GetMapping("/coupon/sms-coupon/member/list")
+  R memberCoupons();
 
 }

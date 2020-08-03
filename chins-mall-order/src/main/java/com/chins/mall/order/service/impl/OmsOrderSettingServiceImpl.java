@@ -1,9 +1,9 @@
 package com.chins.mall.order.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.order.entity.OmsOrderSetting;
 import com.chins.mall.order.mapper.OmsOrderSettingMapper;
 import com.chins.mall.order.service.IOmsOrderSettingService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class OmsOrderSettingServiceImpl extends ServiceImpl<OmsOrderSettingMapper, OmsOrderSetting> implements IOmsOrderSettingService {
+public class OmsOrderSettingServiceImpl extends
+    ServiceImpl<OmsOrderSettingMapper, OmsOrderSetting> implements IOmsOrderSettingService {
 
 }

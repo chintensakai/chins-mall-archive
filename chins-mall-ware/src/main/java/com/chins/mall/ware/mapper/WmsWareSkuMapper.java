@@ -1,7 +1,7 @@
 package com.chins.mall.ware.mapper;
 
-import com.chins.mall.ware.entity.WmsWareSku;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.chins.mall.ware.entity.WmsWareSku;
 
 /**
  * <p>

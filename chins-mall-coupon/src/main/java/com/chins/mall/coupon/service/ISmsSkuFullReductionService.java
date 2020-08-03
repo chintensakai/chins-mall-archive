@@ -1,7 +1,7 @@
 package com.chins.mall.coupon.service;
 
-import com.chins.mall.coupon.entity.SmsSkuFullReduction;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.chins.mall.coupon.entity.SmsSkuFullReduction;
 
 /**
  * <p>

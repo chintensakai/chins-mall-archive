@@ -1,9 +1,9 @@
 package com.chins.mall.coupon.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.coupon.entity.SmsHomeAdv;
 import com.chins.mall.coupon.mapper.SmsHomeAdvMapper;
 import com.chins.mall.coupon.service.ISmsHomeAdvService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class SmsHomeAdvServiceImpl extends ServiceImpl<SmsHomeAdvMapper, SmsHomeAdv> implements ISmsHomeAdvService {
+public class SmsHomeAdvServiceImpl extends ServiceImpl<SmsHomeAdvMapper, SmsHomeAdv> implements
+    ISmsHomeAdvService {
 
 }

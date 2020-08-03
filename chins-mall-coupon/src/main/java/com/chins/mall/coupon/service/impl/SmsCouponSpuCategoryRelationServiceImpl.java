@@ -1,9 +1,9 @@
 package com.chins.mall.coupon.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chins.mall.coupon.entity.SmsCouponSpuCategoryRelation;
 import com.chins.mall.coupon.mapper.SmsCouponSpuCategoryRelationMapper;
 import com.chins.mall.coupon.service.ISmsCouponSpuCategoryRelationService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,8 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-02
  */
 @Service
-public class SmsCouponSpuCategoryRelationServiceImpl extends ServiceImpl<SmsCouponSpuCategoryRelationMapper, SmsCouponSpuCategoryRelation> implements ISmsCouponSpuCategoryRelationService {
+public class SmsCouponSpuCategoryRelationServiceImpl extends
+    ServiceImpl<SmsCouponSpuCategoryRelationMapper, SmsCouponSpuCategoryRelation> implements
+    ISmsCouponSpuCategoryRelationService {
 
 }

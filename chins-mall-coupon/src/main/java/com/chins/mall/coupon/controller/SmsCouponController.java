@@ -21,18 +21,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/coupon/sms-coupon")
 public class SmsCouponController {
 
-    @Autowired
-    private ISmsCouponService couponService;
+  @Autowired
+  private ISmsCouponService couponService;
 
-    /***
-     * 测试member服务远程调用
-     * @return
-     */
-    @GetMapping("/member/list")
-    public R memberCoupons() {
-        SmsCoupon coupon = new SmsCoupon();
-        coupon.setCouponName("满100减20");
-        return R.ok(coupon);
-    }
+  /***
+   * 测试member服务远程调用
+   * @return
+   */
+  @GetMapping("/member/list")
+  public R memberCoupons() {
+    SmsCoupon coupon = new SmsCoupon();
+    coupon.setCouponName("满100减20");
+    return R.ok(coupon);
+  }
 
 }

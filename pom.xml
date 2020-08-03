@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>chins-mall</artifactId>
 
-    <groupId>com.chins</groupId>
-    <artifactId>chins-mall</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>chins-mall-generator</module>
-        <module>chins-mall-product</module>
-        <module>chins-mall-common</module>
-        <module>chins-mall-order</module>
-        <module>chins-mall-coupon</module>
-        <module>chins-mall-member</module>
-        <module>chins-mall-ware</module>
-    </modules>
-    <packaging>pom</packaging>
+  <groupId>com.chins</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <modules>
+    <module>chins-mall-generator</module>
+    <module>chins-mall-product</module>
+    <module>chins-mall-common</module>
+    <module>chins-mall-order</module>
+    <module>chins-mall-coupon</module>
+    <module>chins-mall-member</module>
+    <module>chins-mall-ware</module>
+    <module>chins-mall-gateway</module>
+  </modules>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version>
 
 
 </project>

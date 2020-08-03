@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <groupId>org.springframework.boot</groupId>
-        <relativePath/>
-        <version>2.3.0.RELEASE</version> <!-- lookup parent from repository -->
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>chins-mall-member</artifactId>
+  <dependencies>
+    <dependency>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <groupId>org.springframework.boot</groupId>
+    </dependency>
+    <dependency>
+      <artifactId>chins-mall-common</artifactId>
+      <groupId>com.chins</groupId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
+      <groupId>org.springframework.cloud</groupId>
+    </dependency>
 
-    <groupId>com.chins</groupId>
-    <artifactId>chins-mall-member</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+  </dependencies>
 
-    <properties>
-        <java.version>1.8</java.version>
-        <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
-    </properties>
-
+  <dependencyManagement>
     <dependencies>
-        <dependency>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <groupId>org.springframework.boot</groupId>
-        </dependency>
-        <dependency>
-            <groupId>com.chins</groupId>
-            <artifactId>chins-mall-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <groupId>org.springframework.cloud</groupId>
-        </dependency>
-
+      <dependency>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <groupId>org.springframework.cloud</groupId>
+        <scope>import</scope>
+        <type>pom</type>
+        <version>${spring-cloud.version}</version>
+      </dependency>
     </dependencies>
+  </dependencyManagement>
+  <groupId>com.chins</groupId>
+  <modelVersion>4.0.0</modelVersion>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <groupId>org.springframework.cloud</groupId>
-                <scope>import</scope>
-                <type>pom</type>
-                <version>${spring-cloud.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+  <parent>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <groupId>org.springframework.boot</groupId>
+    <relativePath/>
+    <version>2.3.0.RELEASE</version> <!-- lookup parent from repository -->
+  </parent>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
+  </properties>
+
+  <version>0.0.1-SNAPSHOT</version>
 
 </project>

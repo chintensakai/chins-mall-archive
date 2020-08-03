@@ -18,33 +18,33 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = false)
 public class PmsSkuImages implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-    /**
-     * id
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+  /**
+   * id
+   */
+  @TableId(value = "id", type = IdType.AUTO)
+  private Long id;
 
-    /**
-     * sku_id
-     */
-    private Long skuId;
+  /**
+   * sku_id
+   */
+  private Long skuId;
 
-    /**
-     * 图片地址
-     */
-    private String imgUrl;
+  /**
+   * 图片地址
+   */
+  private String imgUrl;
 
-    /**
-     * 排序
-     */
-    private Integer imgSort;
+  /**
+   * 排序
+   */
+  private Integer imgSort;
 
-    /**
-     * 默认图[0 - 不是默认图，1 - 是默认图]
-     */
-    private Integer defaultImg;
+  /**
+   * 默认图[0 - 不是默认图，1 - 是默认图]
+   */
+  private Integer defaultImg;
 
 
 }
